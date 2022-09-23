@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #E75590, #00C2CB);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.tela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 500px;
+    width: 350px;
+    background-color:transparent;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 20px;
+}
+
+.tela label {
+    color: #000;
+}
+.tela input {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #00C2CB;
+    color: #000;
+    font-family: 'Poppins';
+    outline: none;
+}
+.tela input::placeholder {
+    color: rgba(255, 255, 255, 0.521);
+}
+
+.tela .btnLogin {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #00C2CB;
+    color: #00C2CB;
+    background-color: transparent;
+    font-size: .8rem;
+
+    letter-spacing: .1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all .5s;
+}
+.tela .btnLogin:hover {
+    transform: scale(1.1);
+}
+
